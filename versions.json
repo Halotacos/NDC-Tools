@@ -1,6 +1,22 @@
 {
-  "latest_version": "1.0.0",
-  "download_url": "https://github.com/Halotacos/NDC-EUP-Renamer/releases/latest",
-  "changelog_url": "https://github.com/Halotacos/NDC-EUP-Renamer/blob/main/CHANGELOG.md",
-  "message": "New version available! Click the changelog link to see what's new."
+  "latest": "1.0.0",
+
+  "changelog_url": "https://github.com/Halotacos/NDC-Tools", 
+
+  "changes": "Version: v1.0.0\n\n• Initial public release of NDC EUP Renamer.\n• Automatic backup of the pack root before any changes.\n• Department + sex-based sorting (LSPD/BCSO/etc, male/female).\n• Smart item-type detection for components and props.\n• Consistent model naming with preserved _u/_r suffix.\n• Texture renaming to <item>_diff_XXX_a_uni style.\n• Overflow handling when indices exceed the configured max.\n• Log + HTML/Markdown summary report generation.\n• Light/dark theme toggle and NEP-styled UI.\n• Footer links to Discord, Website, Patreon, and GitHub.\n• Built-in update checker with changelog tab.",
+
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2025-01-01",
+      "notes": [
+        "First public release of NDC EUP Renamer.",
+        "Automatic backup of target pack before any changes.",
+        "Department-based + sex-based sorting for EUP files.",
+        "Model and texture renaming with overflow handling.",
+        "Summary report generation (Markdown + HTML).",
+        "Light/dark mode with NEP themed UI.",
+        "Footer links + update checker + changelog tab."
+      ]
+    }
 }
